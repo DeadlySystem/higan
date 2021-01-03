@@ -61,12 +61,7 @@ auto Program::main() -> void {
   }
 
   if(settings.general.autoSaveMemory) {
-    static uint64_t previousTime = chrono::timestamp();
-    uint64_t currentTime = chrono::timestamp();
-    if(currentTime - previousTime >= 30) {
-      previousTime = currentTime;
       emulator->save();
-    }
   }
 
   memoryEditor.liveRefresh();
