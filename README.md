@@ -3,6 +3,8 @@ higan
 
 ![higan logo](higan/higan/resource/logo.png)
 
+This is a custom build enabling immediate writing to SRAM files when auto-save memory is enabled.
+
 higan is a multi-system emulator, originally developed by
 [byuu](https://byuu.org/about), with an uncompromising focus on accuracy and
 code readability.
